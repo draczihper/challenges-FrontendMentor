@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    width: 100%;
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+
+main {
+    background-image: linear-gradient(180deg, hsl(218, 42%, 20%), hsl(216, 50%, 16%));
+    border-radius: 15px;
+    width: 350px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
+}
+
+.container {
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.art {
+    position: relative;
+}
+
+.art a img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.art div {
+    position: absolute;
+    background-color: hsla(178, 100%, 50%, 0.5);
+    top: 0;
+    width: 100%;
+    height: calc(100%);
+    opacity: 0;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: opacity 0.1s ease-in-out;
+}
+
+.art div:hover {
+    opacity: 1;
+    
+}
+
+.art div .view {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container>a {
+    text-decoration: none;
+}
+
+a h1 {
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+    transition: color 0.15s ease-in-out;
+}
+
+a h1:hover {
+    color:  hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+p.faint {
+    font-size: 18px;
+    color: hsla(0, 4%, 62%, 0.9);
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    vertical-align: middle; 
+}
+
+.price p {
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    gap: 10px;
+}
+
+.price p img {
+    width: 15px;
+}
+
+p.eta img {
+    width: 20px;
+}
+
+hr {
+    border: 0.001px solid  hsl(215, 32%, 27%);
+}
+
+.price .eta {
+    color: hsla(0, 4%, 62%);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.profile img {
+    width: 50px;
+    border: white 1px solid;
+    border-radius: 50%;
+}
+
+.profile p {
+    color: hsla(0, 4%, 62%, 0.9);
+    font-size: 18px;
+}
+
+.profile p a {
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.15s ease-in-out;
+}
+
+.profile p a:hover {
+    color: hsl(178, 100%, 50%);
+}
+
