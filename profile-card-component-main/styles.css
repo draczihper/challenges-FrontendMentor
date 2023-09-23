@@ -20,10 +20,47 @@ body {
 .main {
     width: 300px;
     background-color: white;
+    border-radius: 10px;
 }
 
 
 
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.profile img {
+    border-radius: 50%;
+}
+
+.profile span {
+    display: flex;
+    gap: 10px;
+}
+
+.profile span p, .location {
+    color: hsl(227, 10%, 46%);
+}
+
+hr {
+    color: hsl(227, 10%, 46%);
+    font-size: 1px;
+}
+.metrics {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 0;
+}
+
+.metrics span {
+   text-align: center;
+}
 
 
 
