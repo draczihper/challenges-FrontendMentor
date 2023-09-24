@@ -61,12 +61,6 @@ body {
     margin-bottom: 10px;
 }
 
-.art {
-    width: auto;
-    height: 50%;
-    background-color: blue;
-}
-
 hr {
     color: hsl(227, 10%, 46%);
     opacity: 0.3;
