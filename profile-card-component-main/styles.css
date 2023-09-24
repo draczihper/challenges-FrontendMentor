@@ -86,6 +86,77 @@ hr {
 }
 
 
+/* MOBILE FIRST DESIGN */
+@media screen (max-width: 375px) {
+    .main {
+        width: 300px;
+        background-color: white;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    .image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        height: 150px;
+        position: relative;
+        background-image: url(images/bg-pattern-top.svg);
+        background-size: 20px;
+        background-color: hsla(185, 75%, 39%, 0.7);
+    }
+    
+    .image img {
+        border-radius: 50%;
+        border: 5px solid white;
+        position: absolute;
+        top: 65%;
+    }
+    
+    .name {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 60px 0 10px;
+    }
+    .name span {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .name span p, .location {
+        color: hsl(227, 10%, 46%);
+    }
+    
+    .location {
+        margin-bottom: 10px;
+    }
+    
+    hr {
+        color: hsl(227, 10%, 46%);
+        opacity: 0.3;
+        font-size: 1px;
+    }
+    .metrics {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding: 20px 0;
+    }
+    
+    .metrics span {
+       text-align: center;
+    }
+    
+    .metrics p {
+        color: hsl(227, 10%, 46%);
+        opacity: 0.8;
+    } 
+
+}
 
 
 
