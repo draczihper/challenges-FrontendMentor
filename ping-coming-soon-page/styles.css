@@ -16,56 +16,66 @@
     margin: 0 30px;
 }
 
+.logo {
+  margin: 60px 0 30px;
+}
+
+.logo img {
+  width: 80px;
+}
+
 .header-text {
   margin-bottom: 20px;
 }
 .header-text p {
   color: hsl(0, 0%, 59%);
   margin-bottom: 15px;
+  font-size: 40px;
 }
 
 .header-text span {
   color: hsl(209, 33%, 12%);
   font-weight: 700;
+  font-size: 40px;
 }
 
 .header-text p + p {
   color: hsl(209, 33%, 12%);
   font-weight: 300;
-  font-size: 12px;
+  font-size: 16px;
   text-align: center;
 }
 
 .input form{
   margin-bottom: 10px 0;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 10px;
+  gap: 15px;
 }
 
 .input input {
   all: unset;
   border: 1px hsl(0, 0%, 59%) solid;
   border-radius: 30px;
-  height: 40px;
-  width: 240px;
+  height: 45px;
+  width: 340px;
   padding: 0 20px;
 }
 
 #email-input::placeholder {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .input button {
   all: unset;
   font-weight: 600;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   color: white;
   text-transform: capitalize;
-  width: 240px;
-  height: 40px;
+  width: 140px;
+  height: 45px;
   padding: 0 20px;
   text-align: center;
   border-radius: 30px;
@@ -76,12 +86,17 @@
   cursor: pointer;
 }
 
+.input button:active {
+  background-color: hsl(223, 100%, 88%);
+  cursor: pointer;
+}
+
 .img {
  margin: 60px 0;
 }
 
 .img img {
-  width: 310px;
+  width: 600px;
 }
 
 .contacts {
@@ -93,8 +108,8 @@
   margin: 0 20px;
   color: hsl(223, 87%, 63%);
   background-color: rgb(250, 250, 250);
-  width: 30px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -106,11 +121,11 @@
 
 .contacts + p {
   margin-bottom: 40px;
-  font-size: 12px;
+  font-size: 14px;
   color: hsl(0, 0%, 59%);
 }
 
-/* MOBILE FIRST APPROACH */ 
+/* MOBILE DESIGN */ 
 @media (max-width: 375px) {
   .logo {
     margin: 60px 0 30px;
