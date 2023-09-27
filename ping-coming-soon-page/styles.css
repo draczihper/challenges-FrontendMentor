@@ -195,6 +195,11 @@
     cursor: pointer;
   }
   
+  .input button:active {
+    background-color: hsl(223, 100%, 88%);
+    cursor: pointer;
+  }
+
   .img {
    margin: 60px 0;
   }
