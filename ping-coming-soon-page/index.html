@@ -8,6 +8,7 @@
     <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="styles.css">
     <script src="https://use.fontawesome.com/51bf88e310.js"></script>
+    <script src="index.js" defer></script>
 </head>
 
 <body>
@@ -20,8 +21,8 @@
             <p>Subscribe and get notified</p>
         </div>
         <div class="input">
-            <form method="post"><input action="/" type="email" name="email" placeholder="Your email address..."
-                    id="email-input">
+            <form action="/" method="GET" id="form" novalidate><input  type="email" name="email" placeholder="Your email address..."
+                    id="email-input" novalidate>
                 <button id="btn">Notify me</button>
             </form>
             <span id = "error" class="error-msg"></span>
@@ -34,9 +35,7 @@
             <i class="fa fa-instagram" aria-hidden="true"></i>
         </div>
         <p>&copy Copyright Ping. All rights reserved.</p>
-    </div>
-
-    <script src="index.js" defer></script>
+    </div>  
 </body>
 
 </html>
