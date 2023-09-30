@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="stylesheet" href="styles.css">
     <script src="https://use.fontawesome.com/51bf88e310.js"></script>
 </head>
+
 <body>
     <div class="container">
         <div class="logo">
@@ -17,11 +19,15 @@
             <p>We are launching <span>soon!</span></p>
             <p>Subscribe and get notified</p>
         </div>
-            <div class="input"><form method="post"><input action="/" type="email" name="email" placeholder= "Your email address..." id="email-input">
-                <button>Notify me</button></form>
-            </div>
-            <span class="error-msg"></span>
-            <div class="img"><img src="/images/illustration-dashboard.png" alt="a dashboard"></div>
+        <div class="input">
+            <form method="post"><input action="/" type="email" name="email" placeholder="Your email address..."
+                    id="email-input">
+                <button id="btn">Notify me</button>
+            </form>
+            <span id = "error" class="error-msg"></span>
+        </div>
+
+        <div class="img"><img src="/images/illustration-dashboard.png" alt="a dashboard"></div>
         <div class="contacts">
             <i class="fa fa-facebook" aria-hidden="true"></i>
             <i class="fa fa-twitter" aria-hidden="true"></i>
@@ -32,4 +38,5 @@
 
     <script src="index.js" defer></script>
 </body>
+
 </html>
