@@ -204,8 +204,16 @@
     cursor: pointer;
   }
   
+  .error-msg {
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: 300;
+    font-style: italic;
+    color: red
+  }
+
   .img {
-   margin: 60px 0;
+   margin: 40px 0;
   }
   
   .img img {
