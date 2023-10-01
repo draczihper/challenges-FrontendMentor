@@ -36,5 +36,28 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [ping coming soon page code](https://github.com/KelvinMvungi/challenges-FrontendMentor/tree/main/ping-coming-soon-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [source code](https://github.com/KelvinMvungi/challenges-FrontendMentor/tree/main/ping-coming-soon-page)
+- Live Site URL: [live site](https://effortless-taiyaki-e2c18e.netlify.app/)
+
+## My process
+1. Initialize a new project
+2. Create the index template files for html css and javascript
+3. Add markup for the html
+    a. Create a container for all elements with appropiate classes
+    b. Add another div container for the header including logo
+    c. Create another div container for the main section(i.e *form*) and submit button
+    d. Create another div for the footer 
+    e. Add the appropiate elements in each container
+4. Add the styling with a mobile first approach from top elements to bottom
+5. Add the functionality of the form in javascript.
+6. Test and fix potential bugs.
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS media query
+- Mobile-first workflow
+- [Javascript](https://developer.mozilla.org/) - JS Docs
+- [CSS](https://w3schools.com/css/) - CSS Tutorial
