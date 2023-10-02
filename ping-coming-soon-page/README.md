@@ -11,10 +11,7 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 This challenge needed to create the pixel perfect html + css design of a given figma wireframe.
@@ -61,3 +58,20 @@ Users should be able to:
 - Mobile-first workflow
 - [Javascript](https://developer.mozilla.org/) - JS Docs
 - [CSS](https://w3schools.com/css/) - CSS Tutorial
+
+### What I learned
+
+I learned about properly using media queries
+```css
+@media (min-width: 376px)
+```
+
+Also nice and easy client side form validaton for email inputs
+```js
+if (!emailInput.value.match(/^[A-Za-z\._\-0-9]*[@][A-Za-z]*[\.][a-z]{2,4}$/))
+```
+
+## Author
+
+- Frontend Mentor - [@kelvinmvungi](https://www.frontendmentor.io/profile/kelvinmvungi)
+- X - [@DracZihper](https://www.x.com/draczihper)
