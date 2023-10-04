@@ -100,5 +100,11 @@
         color: var(--light-grayish-blue);
     }
 
+    #desc {
+        color: var(--dark-grayish-blue)
+    }
 
+    #desc:hover{
+        cursor: default;
+    }
 }
