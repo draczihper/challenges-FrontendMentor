@@ -83,9 +83,18 @@
 
     .faq p {
         font-weight: 400;
-        color: var(--very-dark-grayish-blue);
+        color: var(--very-dark-desaturated-blue);
         padding: 10px 0;
     }
 
+    .faq p:hover {
+        cursor: pointer;
+        color: var(--soft-red);
+    }
+    
+    hr {
+        color: var(--light-grayish-blue);
+    }
+    
 
 }
