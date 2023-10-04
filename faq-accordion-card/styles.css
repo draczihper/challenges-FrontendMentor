@@ -83,6 +83,7 @@
 
     .faq p {
         font-weight: 400;
+        font-size: 14px;
         color: var(--very-dark-desaturated-blue);
         padding: 10px 0;
     }
@@ -95,6 +96,6 @@
     hr {
         color: var(--light-grayish-blue);
     }
-    
+
 
 }
