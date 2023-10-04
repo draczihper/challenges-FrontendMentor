@@ -69,4 +69,23 @@
         position: relative;
         z-index: 2;
     }
+
+    .faq {
+       height: inherit;
+       margin-top: 90px;
+       margin-right: 60px;
+    }
+
+    .faq h1 {
+        font-weight: 700;
+        padding-bottom: 20px;
+    }
+
+    .faq p {
+        font-weight: 400;
+        color: var(--very-dark-grayish-blue);
+        padding: 10px 0;
+    }
+
+
 }
