@@ -36,6 +36,7 @@
 
     #main {
         display: flex;
+        flex: 0 0 auto;
         align-items: center;
         justify-content: center;
         background-color: white;
@@ -86,6 +87,9 @@
         font-size: 14px;
         color: var(--very-dark-desaturated-blue);
         padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+        resize: none;
     }
 
     .faq p:hover {
@@ -97,5 +101,7 @@
         color: var(--light-grayish-blue);
     }
 
-
+    p > span > img {
+        position: relative;
+    }
 }
