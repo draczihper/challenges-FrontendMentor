@@ -89,7 +89,6 @@
         padding: 10px 0;
         display: flex;
         justify-content: space-between;
-        resize: none;
     }
 
     .faq p:hover {
@@ -101,7 +100,5 @@
         color: var(--light-grayish-blue);
     }
 
-    p > span > img {
-        position: relative;
-    }
+
 }
