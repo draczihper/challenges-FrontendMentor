@@ -47,14 +47,14 @@
     }
 
     .img {
-        width: 50%;
+        width: 45%;
         position: relative;
         top: 30%
     }
 
     #screen {
         width: 350px;
-        transform: translate(-50px, 50%);
+        transform: translate(-74px, 49%);
         position: relative;
         z-index: 1;
     }
@@ -73,8 +73,8 @@
 
     .faq {
        height: inherit;
-       margin-top: 90px;
-       margin-right: 60px;
+       margin-top: 150px;
+       margin-right: 50px;
     }
 
     .faq h1 {
@@ -89,22 +89,31 @@
         padding: 10px 0;
         display: flex;
         justify-content: space-between;
-    }
+        gap: 50px;
+        }
 
     .faq p:hover {
         cursor: pointer;
         color: var(--soft-red);
     }
     
+    .faq p > span > img {
+        padding-right: 10px;
+    }
+    
     hr {
         color: var(--light-grayish-blue);
     }
 
-    #desc {
-        color: var(--dark-grayish-blue)
+    span#dropdown {
+        min-width: 100%;
+        color: var(--dark-grayish-blue);
+        display: none;
+        position: absolute;
+        z-index: 999;
     }
 
-    #desc:hover{
-        cursor: default;
-    }
+    
+
+    
 }
