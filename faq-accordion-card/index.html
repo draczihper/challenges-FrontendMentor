@@ -6,7 +6,7 @@
     <title>FAQ Accordion</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="shortcut icon" href="/images/favicon-32x32.png" type="image/x-icon">
-    <script src="index.js"></script>
+    <script src="index.js" defer></script>
 </head>
 <body>
     <main id="main">
@@ -16,9 +16,10 @@
         </div>
         <div class="faq">
             <h1>FAQ</h1>
-            <p>How many team member can I invite? <span><img src="images/icon-arrow-down.svg" alt="arrow down"></span></p>
+            <p onclick="showAnswer1()">How many team member can I invite? <span><img id="btn-img1" src="images/icon-arrow-down.svg" alt="arrow down"></span></p>
+            <span class="text" id="dropdown1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eos, beatae.</span>
             <hr>
-            <p>What is the maximum file upload size? <span><img src="images/icon-arrow-down.svg" alt="arrow down"></span></p>
+            <p id="to-view" onclick="showAnswer()">What is the maximum file upload size? <span><img src="images/icon-arrow-down.svg" alt="arrow down"></span></p>
             <span id="dropdown" >No more than 2GB. All files in your account must fit your alloted storage space.</span>
             <hr>
             <p>How do I reset my password? <span><img src="images/icon-arrow-down.svg" alt="arrow down"></span></p>
