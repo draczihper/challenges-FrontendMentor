@@ -100,20 +100,18 @@
     .faq p > span > img {
         padding-right: 10px;
     }
-    
+
     hr {
         color: var(--light-grayish-blue);
     }
 
-    span#dropdown {
-        min-width: 100%;
+    .text {
         color: var(--dark-grayish-blue);
-        display: none;
-        position: absolute;
-        z-index: 999;
+        font-size: 14px;
     }
-
     
-
+    #dropdown1 {
+        display: none;
+    }
     
 }
