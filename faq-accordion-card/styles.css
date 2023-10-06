@@ -96,10 +96,6 @@
         cursor: pointer;
         color: var(--soft-red);
     }
-    
-    .faq p > span > img {
-        padding-right: 10px;
-    }
 
     hr {
         color: var(--light-grayish-blue);
@@ -114,4 +110,7 @@
         display: none;
     }
     
+    #dropdown2 {
+        display: none;
+    }
 }
