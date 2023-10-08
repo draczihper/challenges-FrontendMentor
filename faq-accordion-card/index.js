@@ -26,3 +26,10 @@ function showAnswer4 () {
     dropdownText4.style.display = 'block';
     btnImg4.style.transform = 'rotate(180deg)';
 }
+
+function showAnswer5 () {
+    const dropdownText5 = document.getElementById("dropdown5");
+    const btnImg5 = document.getElementById('btn-img5');
+    dropdownText5.style.display = 'block';
+    btnImg5.style.transform = 'rotate(180deg)';
+}
