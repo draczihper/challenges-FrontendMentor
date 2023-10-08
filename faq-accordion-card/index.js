@@ -20,3 +20,9 @@ function showAnswer3 () {
     btnImg3.style.transform = 'rotate(180deg)';
 }
 
+function showAnswer4 () {
+    const dropdownText4 = document.getElementById("dropdown4");
+    const btnImg4 = document.getElementById('btn-img4');
+    dropdownText4.style.display = 'block';
+    btnImg4.style.transform = 'rotate(180deg)';
+}
