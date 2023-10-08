@@ -13,4 +13,10 @@ function showAnswer2 () {
     btnImg2.style.transform = 'rotate(180deg)';
 }
 
+function showAnswer3 () {
+    const dropdownText3 = document.getElementById("dropdown3");
+    const btnImg3 = document.getElementById('btn-img3');
+    dropdownText3.style.display = 'block';
+    btnImg3.style.transform = 'rotate(180deg)';
+}
 
