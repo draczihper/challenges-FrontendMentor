@@ -126,3 +126,10 @@
         display: none;
     }
 }
+
+
+/* MOBILE DESIGN */
+
+@media  (max-width: 375px) {
+    
+}
