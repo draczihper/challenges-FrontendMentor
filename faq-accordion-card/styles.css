@@ -24,6 +24,55 @@
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+/* MOBILE DESIGN */
+
+@media  (max-width: 375px) {
+    body {
+        background-image: linear-gradient(var(--soft-violet), var(--soft-blue));
+        display: flex;
+        width: 100vh;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #main {
+        display: flex;
+        flex: 0 0 auto;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        width: 300px;
+        height: 750px;
+        overflow: hidden;
+        border-radius: 20px;
+    }
+
+    .img {
+        width: 45%;
+        position: relative;
+        top: -12%;
+    }
+
+    #screen {
+        width: 250px;
+        transform: translate(px, 49%);
+        position: relative;
+        z-index: 1;
+    }
+
+    #bg {
+        width: 600px;
+        transform: translate(-50%, -55%);
+    }
+
+    #box {
+        width: 120px;
+        transform: translate(-670%, 5%);
+        position: relative;
+        z-index: 2;
+    }
+}
+
 /* DESKTOP DESIGN */
 @media (min-width: 376px) {
     body {
@@ -128,8 +177,3 @@
 }
 
 
-/* MOBILE DESIGN */
-
-@media  (max-width: 375px) {
-    
-}
