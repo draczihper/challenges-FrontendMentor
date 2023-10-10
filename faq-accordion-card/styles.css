@@ -51,6 +51,8 @@
     .img {
         width: 45%;
         position: relative;
+        top: 180px;
+        right: 10px;
     }
 
     #screen {
@@ -71,6 +73,40 @@
         position: relative;
         z-index: 2;
     }
+
+    .faq {
+        margin-top: 150px;
+        margin-right: 50px;
+     }
+ 
+     .faq h1 {
+         font-weight: 700;
+         padding-bottom: 20px;
+     }
+ 
+     .faq p {
+         font-weight: 400;
+         font-size: 14px;
+         color: var(--very-dark-desaturated-blue);
+         padding: 10px 0;
+         display: flex;
+         justify-content: space-between;
+         gap: 50px;
+         }
+ 
+     .faq p:hover {
+         cursor: pointer;
+         color: var(--soft-red);
+     }
+ 
+     hr {
+         color: var(--light-grayish-blue);
+     }
+ 
+     .text {
+         color: var(--dark-grayish-blue);
+         font-size: 14px;
+     }
 }
 
 /* DESKTOP DESIGN */
