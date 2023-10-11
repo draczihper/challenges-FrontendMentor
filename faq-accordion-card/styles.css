@@ -108,6 +108,26 @@
          color: var(--dark-grayish-blue);
          font-size: 14px;
      }
+
+     #dropdown1 {
+        display: none;
+    }
+    
+    #dropdown2 {
+        display: none;
+    }
+
+    #dropdown3 {
+        display: none;
+    }
+
+    #dropdown4 {
+        display: none;
+    }
+
+    #dropdown5 {
+        display: none;
+    }
 }
 
 /* DESKTOP DESIGN */
