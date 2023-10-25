@@ -1,35 +1,15 @@
 
-function showAnswer1 () {
-    const dropdownText1 = document.getElementById("dropdown1");
-    const btnImg1 = document.getElementById('btn-img1');
-    dropdownText1.style.display = 'block';
-    btnImg1.style.transform = 'rotate(180deg)';
+function showAnswer() {
+    const dropdownText = document.querySelector(".dropdown");
+    const btnImg = document.querySelector('.btn-img');
+        dropdownText.style.display = 'block';
+        btnImg.style.transform = 'rotate(180deg)';
 }
 
-function showAnswer2 () {
-    const dropdownText2 = document.getElementById("dropdown2");
-    const btnImg2 = document.getElementById('btn-img2');
-    dropdownText2.style.display = 'block';
-    btnImg2.style.transform = 'rotate(180deg)';
-}
+const questions = document.querySelectorAll(".question");
 
-function showAnswer3 () {
-    const dropdownText3 = document.getElementById("dropdown3");
-    const btnImg3 = document.getElementById('btn-img3');
-    dropdownText3.style.display = 'block';
-    btnImg3.style.transform = 'rotate(180deg)';
-}
-
-function showAnswer4 () {
-    const dropdownText4 = document.getElementById("dropdown4");
-    const btnImg4 = document.getElementById('btn-img4');
-    dropdownText4.style.display = 'block';
-    btnImg4.style.transform = 'rotate(180deg)';
-}
-
-function showAnswer5 () {
-    const dropdownText5 = document.getElementById("dropdown5");
-    const btnImg5 = document.getElementById('btn-img5');
-    dropdownText5.style.display = 'block';
-    btnImg5.style.transform = 'rotate(180deg)';
-}
+questions.forEach((question) => {
+    question.addEventListener('click', () => {
+        showAnswer();
+    });
+});
