@@ -196,8 +196,16 @@
         font-size: 14px;
     }
     
-    .dropdown {
+    /* .dropdown {
         display: none;
+    } */
+
+    .faq .text {
+        display: none;
+    }
+    
+    .faq .dropdown-visible {
+        display: block;
     }
 }
 
