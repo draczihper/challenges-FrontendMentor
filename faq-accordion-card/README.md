@@ -25,3 +25,47 @@ Users should be able to:
 - View the optimal layout for the component depending on their device's screen size
 - See hover states for all interactive elements on the page
 - Hide/Show the answer to a question when the question is clicked
+
+### Screenshot
+![](image.png)
+
+### Links
+- Solution URL: 
+- Live Site URL:
+
+### My Process
+I started with writting the HTML and then came to CSS using mobile first approach (although not perfect) and finished the interactivity using Javascript
+
+### Built with 
+- Flexbox
+- Custom CSS properties
+- CSS variables
+- Event Listeners
+- HTML5
+
+### What I learned 
+I learned alot about toggling classes using Javascript that adds or removes styles.
+```javascript
+document.addEventListener('DOMContentLoaded', function () {
+    const questions = document.querySelectorAll('.faq .question');
+    questions.forEach((question) => {
+        question.addEventListener('click', () => {
+            const answer = question.nextElementSibling;
+            answer.classList.toggle('dropdown-visible');
+        });
+    });
+});
+```
+
+### Continued Development 
+I want to learn more about DOM manipulation using just vanilla javascript
+
+### Useful resources
+-[MDN](https://www.mdn.com)
+
+
+### Author
+- X (formerly Twitter) - [DracZihper](https://www.x.com/draczihper)
+
+### Acknowledgments
+-
