@@ -30,8 +30,8 @@ Users should be able to:
 ![](image.png)
 
 ### Links
-- Solution URL: 
-- Live Site URL:
+- Solution URL: [faq-accordion-card] (https://github.com/kelvinmvungi/challenges-FrontendMentor/faq-accordion-card)
+- Live Site URL: 
 
 ### My Process
 I started with writting the HTML and then came to CSS using mobile first approach (although not perfect) and finished the interactivity using Javascript
