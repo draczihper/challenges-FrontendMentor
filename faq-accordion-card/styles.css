@@ -110,6 +110,14 @@
      .dropdown {
         display: none;
     }
+
+    .faq .text {
+        display: none;
+    }
+    
+    .faq .dropdown-visible {
+        display: block;
+    }
 }
 
 
