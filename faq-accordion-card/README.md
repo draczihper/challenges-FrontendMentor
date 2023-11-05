@@ -31,7 +31,7 @@ Users should be able to:
 
 ### Links
 - Solution URL: [faq-accordion-card] (https://github.com/kelvinmvungi/challenges-FrontendMentor/faq-accordion-card)
-- Live Site URL: 
+- Live Site URL: [faq-accordion-card](https://lively-sprinkles-c0c651.netlify.app/)
 
 ### My Process
 I started with writting the HTML and then came to CSS using mobile first approach (although not perfect) and finished the interactivity using Javascript
