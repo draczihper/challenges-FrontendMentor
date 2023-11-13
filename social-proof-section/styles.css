@@ -25,9 +25,7 @@ body {
     background-color: var(--white);
 }
 
-main {
-    width: 350px;
-}
+
 
 h1 {
     color: var(--very-dark-magenta);
@@ -61,8 +59,14 @@ span#paragraph>p {
     font-weight: 700;
 }
 
+
+
 /* MOBILE DESIGN APPROACH */
 @media (max-width: 375px) {
+    main {
+        width: 350px;
+    }
+    
     h1 {
         text-align: center;
         margin: 20px 0;
@@ -82,7 +86,7 @@ span#paragraph>p {
     }
 
     .rating {
-        margin: 20px;
+        margin-bottom: 15px;
         width: 100%;
         padding: 15px;
     }
