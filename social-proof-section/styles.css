@@ -73,7 +73,7 @@ span#paragraph>p {
     
     h1 {
         text-align: center;
-        margin: 20px 0;
+        margin: 25px 0;
     }
     
     span#paragraph>p {
@@ -137,5 +137,9 @@ span#paragraph>p {
         font-weight: 500;
     }
     
-    
+    .quote p {
+        color:var(--white);
+        font-weight: 500;
+        line-height: 1.3rem;
+    }
 }
