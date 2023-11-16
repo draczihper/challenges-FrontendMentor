@@ -161,12 +161,12 @@ span#paragraph>p {
     }
 
     #me {
-        display: flex;
-        flex-direction: row;
+        vertical-align: middle;
     }
 
     .attribution i {
         font-size: 30px;
+        vertical-align: middle;
         transition: transform 0.3s ease-in-out;
     }
 
