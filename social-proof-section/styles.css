@@ -59,9 +59,7 @@ span#paragraph>p {
     font-weight: 700;
 }
 
-.testimonials {
-
-}
+.testimonials {}
 
 
 
@@ -70,17 +68,17 @@ span#paragraph>p {
     main {
         width: 350px;
     }
-    
+
     h1 {
         text-align: center;
         margin: 25px 0;
     }
-    
+
     span#paragraph>p {
         text-align: center;
         margin: 10px;
     }
-    
+
     .reviews {
         display: flex;
         flex-direction: column;
@@ -88,24 +86,24 @@ span#paragraph>p {
         align-items: center;
         margin: 20px;
     }
-    
+
     .rating {
         margin-bottom: 15px;
         width: 100%;
         padding: 15px;
     }
-    
+
     .rating .text {
         display: flex;
         align-items: center;
         justify-content: center;
         padding-top: 15px;
     }
-    
-    .stars img{
+
+    .stars img {
         padding: 0 5px;
     }
-    
+
     .user {
         background-color: var(--very-dark-magenta);
         margin: 20px;
@@ -115,7 +113,7 @@ span#paragraph>p {
         padding: 30px;
     }
 
-    .user > div {
+    .user>div {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -132,34 +130,50 @@ span#paragraph>p {
         color: var(--white);
     }
 
-    .name h3 ~ p {
+    .name h3~p {
         color: var(--soft-pink);
         font-weight: 500;
     }
-    
+
     .quote p {
-        color:var(--white);
+        color: var(--white);
         font-weight: 500;
         line-height: 1.3rem;
     }
 
     .attribution {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         text-align: center;
         vertical-align: center;
-        line-height: 2rem;
+        line-height: 1.6rem;
         margin: 40px 20px 20px;
     }
 
     .attribution a {
         text-decoration: none;
         color: #000;
-        background-color:var(--dark-grayish-magenta);
+        background-color: var(--dark-grayish-magenta);
         padding: 3px;
         border-radius: 2px;
     }
 
-    .attribution a i {
-        
-        
+    #me {
+        display: flex;
+        flex-direction: row;
     }
+
+    .attribution i {
+        font-size: 30px;
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .attribution i:hover {
+        transform: rotate(360deg) scale(1.5);
+        cursor: pointer;
+    }
+
+
 }
