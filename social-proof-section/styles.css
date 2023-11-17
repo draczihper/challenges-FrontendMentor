@@ -62,6 +62,9 @@ span#paragraph>p {
 .testimonials {}
 
 
+.stars img {
+    padding: 0 5px;
+}
 
 /* MOBILE DESIGN APPROACH */
 @media (max-width: 375px) {
@@ -98,10 +101,6 @@ span#paragraph>p {
         align-items: center;
         justify-content: center;
         padding-top: 15px;
-    }
-
-    .stars img {
-        padding: 0 5px;
     }
 
     .user {
@@ -190,10 +189,14 @@ span#paragraph>p {
 
     h1 {
         margin-bottom: 20px;
+        font-size: 3rem;
+        line-height: 2.4rem;
     }
 
     span#paragraph>p {
         width: 450px;
+        font-size: 1.2rem;
+        line-height: 1.4rem;
         margin-bottom: 40px;
     }
 
@@ -201,15 +204,26 @@ span#paragraph>p {
         position: relative;
         left: 50%;
         bottom: 200px;
-        width: 500px;
+        width: 400px;
     }
 
     .rating {
         display: flex;
         align-items: center;
-        gap: 30px;
+        gap: 20px;
         width: 100%;
-        margin-bottom: 20px;
-        padding: 20px;
+        margin-bottom: 15px;
+        padding: 15px;
     }
+
+    .two {
+        margin-left: 60px;
+    }
+
+    .three {
+        margin-left: 120px;
+    }
+
+    
+
 }
