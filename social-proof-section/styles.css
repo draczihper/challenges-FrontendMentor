@@ -66,6 +66,7 @@ span#paragraph>p {
     padding: 0 5px;
 }
 
+
 .user {
     background-color: var(--very-dark-magenta);
     margin: 20px;
@@ -260,17 +261,27 @@ span#paragraph>p {
         padding: 15px;
     }
 
-    .two {
+    .rating:nth-child(2) {
         margin-left: 60px;
     }
 
-    .three {
+    .rating:nth-child(3) {
         margin-left: 120px;
     }
 
     .testimonials {
         display: flex;
+        flex-direction: row;
     }
-    
+
+    .user:nth-child(2) {
+        position: relative;
+        top: 20px;
+    }
+
+    .user:nth-child(3) {
+        position: relative;
+        top: 40px;
+    }
 
 }
