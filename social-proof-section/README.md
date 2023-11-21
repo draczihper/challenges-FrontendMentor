@@ -22,6 +22,7 @@ Users should be able to:
 - View the optimal layout for the section depending on their device's screen size
 
 ### Screenshot
+
 ![Desktop view screenshot](image.png)
 ![Mobile view screenshot](image-1.png)
 ![Mobile view screenshot](image-2.png)
@@ -30,3 +31,34 @@ Users should be able to:
 
 - Solution URL: [Source Code](https://github.com/KelvinMvungi/challenges-FrontendMentor/tree/main/social-proof-section)
 - Live Site URL: [Live site](https://resplendent-marshmallow-42c190.netlify.app/)
+
+
+## My process
+Started with HTML then CSS using mobile first approach then desktop
+
+### Built with
+
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+
+### What I learned
+
+I learned mostly about positioning items in a page.
+
+```css
+{
+    position: absolute;
+    bottom: 0;
+}
+    
+```
+
+## Author
+
+- Frontend Mentor - [@kelvinmvungi](https://www.frontendmentor.io/profile/kelvinmvungi)
+- Twitter - [@DracZihper](https://www.twitter.com/DracZihper)
+
+## Acknowledgment
+
+People who created and maintain [The Odin Project](https://www.theodinproject.com/)
