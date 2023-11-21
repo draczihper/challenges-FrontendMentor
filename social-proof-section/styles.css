@@ -63,7 +63,6 @@ span#paragraph>p {
     padding: 0 5px;
 }
 
-
 .user {
     background-color: var(--very-dark-magenta);
     margin-right: 20px;
@@ -140,10 +139,6 @@ span#paragraph>p {
 
 /* MOBILE DESIGN APPROACH */
 @media (max-width: 375px) {
-    body {
-        overflow: visible;
-    }
-
     main {
         width: 350px;
     }
@@ -178,13 +173,17 @@ span#paragraph>p {
         justify-content: center;
         padding-top: 15px;
     }
+
+    .attribution {
+        position: relative;
+        bottom: 0;
+    }
 }
 
 /* DESKTOP APPROACH */
 
 @media (min-width: 376px) {
     body {
-        /* width: 100vh; */
         margin: 70px;
     }
 
