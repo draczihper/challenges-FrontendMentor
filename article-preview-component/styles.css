@@ -13,3 +13,10 @@
     --light-grayish-blue: hsl(210, 46%, 95%);
 }
 
+/* MOBILE DESIGN */
+@media screen and (max-width:375px) {
+    .container {
+        width: 350px;
+        margin: 20px;
+    }
+}
