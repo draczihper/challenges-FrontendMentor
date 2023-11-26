@@ -29,9 +29,16 @@ body {
         overflow: hidden;
     }
 
-    .main {
-        
+    .main {}
+
+    .image {}
+
+    .image img {
+        width: 350px;
     }
+
+
+
 
 
 }
