@@ -43,7 +43,12 @@ body {
         font-size: 15px;
     }
     
-    .text
+    .text > p:first-child {
+        font-weight: 500;
+        color: var(--very-dark-grayish-blue);
+        margin-bottom: 15px;
+        line-height: 1.2rem;
+    }
 
 
 
