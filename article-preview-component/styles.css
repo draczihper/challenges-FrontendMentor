@@ -53,6 +53,9 @@ body {
 
     .text > p:nth-child(2) {
         margin-bottom: 30px;
+        color: var(--grayish-blue);
+        
+        
     }
 
 
