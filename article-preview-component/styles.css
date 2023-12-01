@@ -58,6 +58,7 @@ body {
 
     .person {
         display: flex;
+        align-items: center;
     }
 
     .user-image img {
