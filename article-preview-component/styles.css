@@ -71,6 +71,10 @@ body {
         margin-right: 30px;
     }
 
+    .name p:first-child {
+        font-weight: 600;
+    }
+
 
 
 
