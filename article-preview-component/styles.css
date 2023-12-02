@@ -73,6 +73,7 @@ body {
 
     .name p:first-child {
         font-weight: 600;
+        margin-bottom: 8px;
     }
 
 
