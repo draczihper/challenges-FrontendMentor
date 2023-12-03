@@ -74,6 +74,7 @@ body {
     .name p:first-child {
         font-weight: 600;
         margin-bottom: 8px;
+        color: var(--very-dark-grayish-blue);
     }
 
     .name p:nth-child(2) {
