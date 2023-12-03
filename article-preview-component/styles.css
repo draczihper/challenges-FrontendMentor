@@ -81,7 +81,9 @@ body {
         color: var(--grayish-blue);
     }
 
-
+    .share img {
+        border-radius: 50%;
+    }
 
 
 
