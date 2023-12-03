@@ -76,6 +76,12 @@ body {
         margin-bottom: 8px;
     }
 
+    .name p:nth-child(2) {
+        color: var(--grayish-blue);
+    }
+
+
+
 
 
 
