@@ -84,6 +84,7 @@ body {
     .share img {
         border-radius: 50%;
         background-color: var(--light-grayish-blue);
+        padding: 10px;
     }
 
 
