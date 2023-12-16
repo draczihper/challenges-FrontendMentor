@@ -46,6 +46,16 @@ body {
     cursor: pointer;
 }
 
+.text > p:first-child {
+    font-weight: 600;
+    color: var(--very-dark-grayish-blue);
+    line-height: 1.2rem;
+}
+
+.text > p:nth-child(2) {
+    color: var(--grayish-blue);
+}
+
 /* MOBILE DESIGN */
 @media screen and (max-width:375px) {
     .container {
@@ -70,15 +80,11 @@ body {
     }
     
     .text > p:first-child {
-        font-weight: 600;
-        color: var(--very-dark-grayish-blue);
         margin-bottom: 15px;
-        line-height: 1.2rem;
     }
 
     .text > p:nth-child(2) {
         margin-bottom: 30px;
-        color: var(--grayish-blue);
     }
 
     .person {
@@ -130,8 +136,7 @@ body {
     }
     
    .main {
-    width: 600px;
-    height: 100%;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -148,6 +153,8 @@ body {
 
 
    .image img {
-    width: 300px;
+    width: 350px;
    }
+
+  
 }
