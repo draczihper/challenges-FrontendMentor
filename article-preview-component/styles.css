@@ -159,5 +159,11 @@ body {
         width: 400px;
         line-height: 1.8rem;
     }  
+
+    .text p:nth-child(2) {
+        width: 450px;
+        line-height: 1.4rem;
+        padding-top: 20px;
+    }
   
 }
