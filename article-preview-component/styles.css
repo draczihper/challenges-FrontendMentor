@@ -46,13 +46,13 @@ body {
     cursor: pointer;
 }
 
-.text > p:first-child {
+.text>p:first-child {
     font-weight: 600;
     color: var(--very-dark-grayish-blue);
     line-height: 1.2rem;
 }
 
-.text > p:nth-child(2) {
+.text>p:nth-child(2) {
     color: var(--grayish-blue);
 }
 
@@ -78,12 +78,12 @@ body {
         margin: 30px;
         font-size: 15px;
     }
-    
-    .text > p:first-child {
+
+    .text>p:first-child {
         margin-bottom: 15px;
     }
 
-    .text > p:nth-child(2) {
+    .text>p:nth-child(2) {
         margin-bottom: 30px;
     }
 
@@ -121,7 +121,7 @@ body {
     }
 }
 
-/* DESKTOP DESIGN */ 
+/* DESKTOP DESIGN */
 @media (min-width: 376px) {
     body {
         display: flex;
@@ -130,40 +130,46 @@ body {
         height: 100vh;
         background-color: var(--light-grayish-blue);
     }
-    
-    .container {
 
+    .container {}
+
+    .main {
+        height: 280px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        background-color: hsl(0, 54%, 39%);
+        border-radius: 10px;
     }
+
     
-   .main {
-    
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    background-color:hsl(0, 0%, 100%);
-    border-radius: 10px;
-   }
-   
-   .image img {
-    width: 350px;
-   }
+
+    .image img {
+        width: 350px;
+    }
 
 
-   .text {
-    padding: 30px;
-   }
+    .text {
+        padding: 30px;
+    }
 
     .text p:first-child {
         font-size: 20px;
         width: 400px;
         line-height: 1.8rem;
-    }  
+    }
 
     .text p:nth-child(2) {
         width: 450px;
         line-height: 1.4rem;
         padding-top: 20px;
     }
-  
+
+    .person {}
+
+    .user-image img {
+        width: 30px;
+    }
+
 }
