@@ -139,7 +139,7 @@ body {
         align-items: center;
         justify-content: center;
         flex-direction: row;
-        background-color: hsl(0, 54%, 39%);
+        background-color: hsl(0, 0%, 100%);
         border-radius: 10px;
     }
 
