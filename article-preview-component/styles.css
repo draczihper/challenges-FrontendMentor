@@ -134,8 +134,8 @@ body {
     .container {}
 
     .main {
-        height: 280px;
         display: flex;
+        height: 280px;
         align-items: center;
         justify-content: center;
         flex-direction: row;
@@ -144,6 +144,9 @@ body {
         overflow: hidden;
     }
 
+    .image {
+        height: 280px;
+    }
 
     .image img {
         width: 350px;
