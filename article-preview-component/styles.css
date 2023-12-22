@@ -169,10 +169,17 @@ body {
         padding-top: 20px;
     }
 
-    .person {}
+    .person {
+        display: flex;
+        padding-top: 20px;
+
+    }
 
     .user-image img {
-        width: 30px;
+        width: 50px;
+        border-radius: 50%;
+    }
+
     }
 
 }
