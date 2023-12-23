@@ -31,6 +31,10 @@ body {
     color: var(--very-dark-grayish-blue);
 }
 
+.attribution a:hover {
+    text-decoration: underline;
+}
+
 .attribution a:visited {
     color: var(--desaturated-dark-blue);
 }
