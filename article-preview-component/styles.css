@@ -175,8 +175,7 @@ body {
     .person {
         display: flex;
         padding-top: 20px;
-
-
+        align-items: center;
     }
 
     .user-image img {
