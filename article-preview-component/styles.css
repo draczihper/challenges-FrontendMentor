@@ -60,6 +60,18 @@ body {
     color: var(--grayish-blue);
 }
 
+.name p:first-child {
+        font-weight: 600;
+        margin-bottom: 8px;
+        color: var(--very-dark-grayish-blue);
+        font-size: 14px;
+    }
+
+    .name p:nth-child(2) {
+        color: var(--grayish-blue);
+        font-size: 14px;
+    }
+
 /* MOBILE DESIGN */
 @media screen and (max-width:375px) {
     .container {
@@ -106,18 +118,6 @@ body {
         margin-right: 30px;
     }
 
-    .name p:first-child {
-        font-weight: 600;
-        margin-bottom: 8px;
-        color: var(--very-dark-grayish-blue);
-        font-size: 14px;
-    }
-
-    .name p:nth-child(2) {
-        color: var(--grayish-blue);
-        font-size: 14px;
-    }
-
     .share img {
         border-radius: 50%;
         background-color: var(--light-grayish-blue);
@@ -155,7 +155,6 @@ body {
     .image img {
         width: 350px;
     }
-
 
     .text {
         padding: 30px;
