@@ -1,0 +1,1 @@
+const shareEl = document.getElementById('share');
