@@ -88,10 +88,6 @@ body {
         overflow: hidden;
     }
 
-    .main {}
-
-    .image {}
-
     .image img {
         width: 350px;
     }
@@ -134,8 +130,6 @@ body {
         height: 100vh;
         background-color: var(--light-grayish-blue);
     }
-
-    .container {}
 
     .main {
         display: flex;
