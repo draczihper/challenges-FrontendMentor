@@ -1,4 +1,4 @@
-const shareEl = document.getElementById('share');
+const shareEl = document.querySelectorAll("#share");
 
 shareEl.addEventListener('click', () => {
     console.log("Share icon is clicked!")
