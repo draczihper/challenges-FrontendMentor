@@ -21,6 +21,11 @@ body {
     background-color: var(--light-grayish-blue);
 }
 
+.share img:hover {
+    background-color: var(--very-dark-grayish-blue);
+    cursor: pointer;
+}
+
 .share-icons {
     
 }
