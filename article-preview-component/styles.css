@@ -27,7 +27,7 @@ body {
 }
 
 .share-icons {
-    
+ display: flex;   
 }
 
 .share-icons img {
