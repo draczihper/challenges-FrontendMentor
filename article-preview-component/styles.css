@@ -28,10 +28,10 @@ body {
 
 .share-icons {
  display: flex;   
+ background-color: var(--desaturated-dark-blue);
 }
 
 .share-icons img {
-    
 }
 
 .attribution {
