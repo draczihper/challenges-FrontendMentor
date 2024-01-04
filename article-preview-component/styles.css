@@ -29,10 +29,10 @@ body {
 .share-icons {
  display: flex;   
  background-color: var(--desaturated-dark-blue);
-
 }
 
-.share-icons {
+.share-icons * {
+    padding: 8px;
 }
 
 .share-icons img {
