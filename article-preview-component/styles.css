@@ -29,9 +29,14 @@ body {
 .share-icons {
  display: flex;   
  background-color: var(--desaturated-dark-blue);
+
+}
+
+.share-icons {
 }
 
 .share-icons img {
+
 }
 
 .attribution {
