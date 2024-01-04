@@ -31,6 +31,10 @@ body {
  background-color: var(--desaturated-dark-blue);
 }
 
+.share-icons span {
+    color: var(--light-grayish-blue);
+}
+
 .share-icons * {
     padding: 8px;
 }
