@@ -33,6 +33,7 @@ body {
 
 .share-icons span {
     color: var(--grayish-blue);
+    font-size: 14px;
 }
 
 .share-icons * {
