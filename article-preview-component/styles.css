@@ -32,7 +32,7 @@ body {
 }
 
 .share-icons span {
-    color: var(--light-grayish-blue);
+    color: var(--grayish-blue);
 }
 
 .share-icons * {
