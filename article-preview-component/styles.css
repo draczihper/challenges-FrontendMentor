@@ -28,6 +28,7 @@ body {
 
 .share-icons {
  display: flex;   
+ align-items:center;
  background-color: var(--desaturated-dark-blue);
 }
 
@@ -35,7 +36,7 @@ body {
     color: var(--grayish-blue);
     font-size: 12px;
     letter-spacing: 2px;
-}
+    }
 
 .share-icons * {
     padding: 8px;
