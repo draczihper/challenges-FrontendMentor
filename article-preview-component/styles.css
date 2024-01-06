@@ -21,30 +21,34 @@ body {
     background-color: var(--light-grayish-blue);
 }
 
+.share {
+    position: absolute;
+}
+
 .share img:hover {
     background-color: var(--very-dark-grayish-blue);
     cursor: pointer;
 }
 
 .share-icons {
- display: flex;   
- align-items:center;
- background-color: var(--desaturated-dark-blue);
+    position: relative;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    background-color: var(--desaturated-dark-blue);
 }
 
 .share-icons span {
     color: var(--grayish-blue);
     font-size: 12px;
     letter-spacing: 2px;
-    }
+}
 
 .share-icons * {
     padding: 8px;
 }
 
-.share-icons img {
-
-}
+.share-icons img {}
 
 .attribution {
     margin: 30px;
@@ -212,6 +216,6 @@ body {
     .share {
         margin-left: 180px;
     }
-    
-    
+
+
 }
