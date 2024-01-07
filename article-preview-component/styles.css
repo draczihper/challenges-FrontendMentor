@@ -21,10 +21,6 @@ body {
     background-color: var(--light-grayish-blue);
 }
 
-.overlay {
-    display: flex;
-}
-
 .share {
     position: absolute;
 }
@@ -36,10 +32,12 @@ body {
 
 .share-icons {
     position: relative;
-    /* z-index: 99; */
+    z-index: 99;
+    transform: translate(100px, -50px);
     display: flex;
     align-items: center;
     background-color: var(--desaturated-dark-blue);
+    border-radius: 5px;
 }
 
 .share-icons span {
