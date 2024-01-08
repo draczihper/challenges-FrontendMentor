@@ -32,11 +32,11 @@ body {
 
 .share-icons {
     position: relative;
-    z-index: 99;
+    /* z-index: 99999; */
     transform: translate(100px, -50px);
     display: flex;
     align-items: center;
-    background-color: var(--desaturated-dark-blue);
+    background-color: var(--very-dark-grayish-blue);
     border-radius: 5px;
 }
 
