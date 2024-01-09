@@ -33,7 +33,7 @@ body {
 .share-icons {
     position: absolute;
     /* z-index: 99999; */
-    transform: translate(100px, -50px);
+    transform: translate(100px, -60px);
     padding: 5px 15px;
     display: flex;
     align-items: center;
