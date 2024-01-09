@@ -34,6 +34,7 @@ body {
     position: absolute;
     /* z-index: 99999; */
     transform: translate(100px, -50px);
+    padding: 5px 10px;
     display: flex;
     align-items: center;
     background-color: var(--very-dark-grayish-blue);
@@ -50,7 +51,9 @@ body {
     padding: 8px;
 }
 
-.share-icons img {}
+.share-icons img {
+    width: 30px;
+}
 
 .attribution {
     margin: 30px;
