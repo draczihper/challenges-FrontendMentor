@@ -1,4 +1,4 @@
-const shareEl = document.getElementById("arrow");
+const shareEl = document.querySelector(".share");
 const shareDiv = document.getElementById("share-icons");
 
 shareEl.addEventListener("click", myFunction);
