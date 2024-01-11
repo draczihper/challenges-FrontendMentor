@@ -45,6 +45,7 @@ body {
     top: 100%;
     left: 50%;
     border: solid transparent;
+    content: "";
 }
 
 .share-icons span {
