@@ -49,7 +49,7 @@ body {
     height: 0;
     width: 0;
     position:absolute;
-    
+    pointer-events: none;
 }
 
 .share-icons span {
