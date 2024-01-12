@@ -48,6 +48,8 @@ body {
     content: "";
     height: 0;
     width: 0;
+    position:absolute;
+    
 }
 
 .share-icons span {
