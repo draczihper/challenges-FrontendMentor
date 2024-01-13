@@ -50,6 +50,7 @@ body {
     width: 0;
     position:absolute;
     pointer-events: none;
+    border-color: rgba(72, 85, 106, 0);
 }
 
 .share-icons span {
